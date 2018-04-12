@@ -22,7 +22,7 @@ def Div(x): # Kaç tane pozitif tam sayı böleni olduğunu bulan fonksiyon.
             if i < (x / i): # Bölen bölümden küçük olduğunda sayacı artıracak.
                 div_counter += 1
             else: # Bölen bölümden büyük durumda ise else koşuluna girip sayacı 2 ile çarpıp sonucu verecek.
-                # Çünkü bölenin bölenden büyük olduğu durumlarda aslında daha önceki bölme işlemlerinin aynısını
+                # Çünkü bölenin bölümden büyük olduğu durumlarda aslında daha önceki bölme işlemlerinin aynısını
                 # yapmış oluyor.Örneğin: Bölünen:10, Bölen:2, Bölüm:5---Bölen 5 durumuna geldiğinde yapmasına gerek
                 # kalmayıp sayacı iki ile çarparsak işlem kalabalığından kurtulmuş oluruz.
                 return div_counter * 2
